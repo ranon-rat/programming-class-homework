@@ -1,0 +1,111 @@
+.lista {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  background-color: rgb(255, 238, 238);
+  margin: 0;
+  padding: 0;
+  
+  
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding:14px 14px;
+}
+/*todo lo de la lista*/
+.lista li {
+  float: left;
+  padding-right: 2em;
+}
+
+.locations-food {
+    padding:14px 14px;
+
+  float: left;
+  
+
+}
+.locations-food:hover {
+  background-color: rgb(218, 201, 201);
+}
+
+.locations-food a {
+  text-align: center;
+  padding: 14px 16px;
+  display: inline;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.locations-food:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+#location-list {
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #f9f9f9;
+  position: absolute;
+  text-align: center;
+}
+#location-list a {
+  display: block;
+  width: 6em;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #f9f9f9;
+}
+#location-list *:hover {
+  border-color: rgb(216, 216, 216);
+  background-color: rgb(216, 216, 216);
+}
+
+#eat:hover #location-list {
+  display: block;
+}
+
+
+/*todo lo de los post*/
+#comida{
+    background-color:rgb(252, 252, 252);
+    border-radius: 20px;
+    border: rgb(255, 255, 255) 1em solid;
+    width: 90%;
+    margin:auto;
+    text-align: center;
+}
+#comida .post{
+    margin:10px 10px ;
+}
+
+.post{
+    border-radius: 10px;
+    
+    display:inline-block;
+    background-image: linear-gradient(rgb(255, 106, 106),rgb(255, 142, 236));
+    
+}
+.image-food,.image-superposition{
+    width: 20em;
+    background-position: center;
+    background-size: auto;
+    height: 20em;
+    border-radius: 10px;
+}
+.image-food *{
+    display: none;
+}
+.image-superposition:hover,.image-food:hover{
+    
+    background-image:linear-gradient( rgba(255,255,255,0.5),rgba(0,0,0,0.5)),url();
+
+}
+.image-food:hover *{
+    padding-top: 10em;
+    display: block;
+    
+}

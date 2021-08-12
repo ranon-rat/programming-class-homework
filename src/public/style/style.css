@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(#e66465, #f37ae3);
+    height:1000%;
+    background-size: cover;
+  
+ 
+    margin:0;
+    padding:0;
+    
+    font-family:sans-serif;
+
+}
+#titulo{
+    text-align: center;
+    font-size: 8em;
+}

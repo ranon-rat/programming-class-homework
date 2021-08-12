@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu restaurantes</title>
+    <link rel="stylesheet" href="/public/style/style.css" />
+
+    <script src="https://unpkg.com/systemjs@6.3.2/dist/system.js"></script>
+  </head>
+  <body>
+    <h1 id="titulo">delivery food</h1>
+    <ul class="lista">
+      <li id="about-us" class="locations-food">
+        <a href="https://github.com/ranon-rat">about-us</a>
+      </li>
+      <li class="locations-food">nothing</li>
+      <li id="eat" class="locations-food">
+        countries
+        <div id="location-list" class="dropbox"></div>
+      </li>
+      <li id="upload" class="locations-food">
+        <a href="/upload/"> upload more food </a>
+      </li>
+      <li id="buy" class="locations-food">buy</li>
+    </ul>
+
+    <div id="comida"></div>
+    <link rel="stylesheet" href="/public/style/index.css" />
+    <script type="module" src="/public/script/compile/loadFood.js"></script>
+    <footer>
+      <p>©ranon-rat</p>
+    </footer>
+  </body>
+</html>

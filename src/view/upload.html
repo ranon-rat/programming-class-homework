@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/style/style.css">
+    <link rel="stylesheet" href="/public/style/upload.css">
+    <script src="/public/script/compile/addFood.js"></script>
+    <link rel="stylesheet" href="/public/style/index.css">
+  </head>
+  <body>
+    <ul class="lista">
+      <li id="about-us" class="locations-food " >
+          <a href="https://github.com/ranon-rat">about-us</a>
+
+      </li>
+      <li class="locations-food">
+          nothing
+      </li>
+      <li id="eat"class="locations-food ">
+          countries
+          <div id="location-list" class="dropbox">
+
+          </div>
+      </li>
+     <li id="upload" class="locations-food">
+       <a href="/upload/">
+      upload more food
+      </a>
+     </li>
+  </ul>
+  <script type="module" src="/public/script/compile/loadFood.js"></script>
+      <h1 id="titulo">
+          delivery   food
+      </h1>
+    <div id="upload-food">
+        <h1> Upload food</h1>
+      <p><input type="text" id="name-of-the-food" class="input-food" placeholder="name" /></p>
+      <p><input type="text" id="where-is-it" class="input-food" placeholder="location" /></p>
+      <p><input type="text" id="image-url" class="input-food" placeholder="image url" /></p>
+      <p><input type="number" id="cost" class="input-food" placeholder="cost" /></p>
+      <p><input type="submit" id="submit" onclick="addFood()" /></p>
+      
+    </div>
+<footer>
+    <p>
+        ©ranon-rat
+    </p>
+</footer>
+  </body>
+</html>

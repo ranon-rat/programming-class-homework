@@ -1,0 +1,44 @@
+
+#upload-food{
+    margin:auto;
+
+    height: 30em;
+    width: 15em;
+    background-color:rgb(255, 238, 238);
+    border-style: solid;
+    border-color:rgb(255, 238, 238);
+    border-width: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#upload-food input{
+    width: 14em;
+}
+#upload-food input::placeholder{
+    text-align: center;
+}
+.input-food{
+    margin-left: auto;
+   align-self: center;
+    border:none;
+    border-radius: 5px;
+    height: 2em;
+}
+.input-food:hover{
+    background-color: rgb(214, 213, 213);
+}
+#submit{
+    border:none;
+    border-radius: 5px;
+    height: 2em;
+    color:rgb(255, 238, 238);
+
+    background-color: rgb(194, 173, 253);
+    
+}
+#submit:hover{
+    color:#e66465;
+    background-color: rgb(214, 200, 253);
+
+}
